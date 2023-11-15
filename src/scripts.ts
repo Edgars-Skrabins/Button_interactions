@@ -16,11 +16,10 @@ buttons[2].addEventListener("click", ():void =>{
     cubes[4].style.visibility ="hidden";
 })
 
+let cube3Visible:boolean = true;
 buttons[3].addEventListener("click", ():void => {
 
-    const cubeVisible:boolean = cubes[1].style.visibility === "visible";
-
-    if(cubeVisible)
+    if(cube3Visible)
     {
         cubes[1].style.visibility ="hidden";
     }
@@ -28,6 +27,8 @@ buttons[3].addEventListener("click", ():void => {
     {
         cubes[1].style.visibility = "visible";
     }
+
+    cube3Visible = cubes[1].style.visibility === "visible";
 
 })
 

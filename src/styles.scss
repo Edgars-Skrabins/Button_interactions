@@ -24,6 +24,10 @@ body {
   color: white;
 }
 
+.button:hover{
+  cursor:grab;
+}
+
 .button1{
   background-color:#017187;
 }
@@ -98,4 +102,6 @@ body {
 {
   font-size: 2rem;
   font-weight: bold;
+
+  color:white;
 }
