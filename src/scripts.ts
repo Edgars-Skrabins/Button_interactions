@@ -33,11 +33,11 @@ buttons[3].addEventListener("click", ():void => {
 })
 
 const randomColors:string[] = [
-    "#4A90E2", // Dodger Blue
-    "#FF6347", // Tomato
-    "#00FF7F", // Spring Green
-    "#8A2BE2", // Blue Violet
-    "#FFD700"  // Gold
+    "#4A90E2",
+    "#FF6347",
+    "#00FF7F",
+    "#8A2BE2",
+    "#FFD700"
 ];
 
 let chosenColor:string = "";
@@ -98,9 +98,7 @@ cubes[0].addEventListener("mouseenter", ():void => {
 })
 
 cubes[0].addEventListener("mouseleave", ():void => {
-
     cubes[0].style.backgroundColor = oldCube0Color;
-
 })
 
 cubes[3].addEventListener("mouseenter", ():void => {
@@ -119,6 +117,8 @@ const startCube3Timer = ():void => {
 
 const stopCube3Timer = ():void => {
     clearInterval(cube3IntervalId);
+    cube3CurrentCount = 0;
+    cubes[3].innerHTML = String(cube3CurrentCount);
 }
 
 const countCube3Timer = ():void =>{
