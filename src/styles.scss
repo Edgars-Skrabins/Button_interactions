@@ -1,0 +1,101 @@
+body {
+  background-color: #737373;
+}
+
+.container{
+  margin: 0 2rem;
+}
+
+.buttonContainer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 0;
+}
+
+.button{
+  font-size: 1.6rem;
+  padding: 1.2rem 2rem;
+  border-radius: 0.7rem;
+  border-style: none;
+
+  max-width: 15rem;
+
+  color: white;
+}
+
+.button1{
+  background-color:#017187;
+}
+
+.button2{
+  background-color:#5C0187B5;
+}
+
+.button3{
+  background-color:#8711018F;
+}
+
+.button4{
+  background-color:#01870EA1;
+}
+
+.button5{
+  background-color:#E2CF22;
+}
+
+.button6{
+  background-color:#E2CF22;
+}
+
+.button7{
+  background-color:#18D5E1;
+}
+
+.cubeContainer-row{
+  margin: 2rem 0rem;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.cubeContainer-col{
+  display:flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.cube{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  min-width: 300px;
+  min-height: 300px;
+  background-color:#1FC2AE;
+}
+
+.cube:hover{
+  cursor: grab;
+}
+
+.bottomContainer{
+  display:inline-flex;
+  flex-direction: column;
+  align-content: flex-start;
+  gap: 2rem;
+  flex-grow: 0;
+}
+
+.input{
+  font-size: 1rem;
+  padding: 0.5rem;
+  min-width: 20rem;
+}
+
+.inputText
+{
+  font-size: 2rem;
+  font-weight: bold;
+}
